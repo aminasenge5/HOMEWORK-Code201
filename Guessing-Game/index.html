@@ -19,15 +19,25 @@
 	<body>
 		<h1>Self-Check Process</h1>
 			<p>Based on research conducted by Michael Dye, a relapse can be predicted based on a specific set of behaviors. Take the following test if you would like to measure the possibility of a relapse.</p>
+ <p id="myconsole">
+"Thanks for your honesty! Press ok to proceed to the next question.."<br>
+"Thanks for your honesty! Press ok to proceed to the next question.."<br>
+"Thanks for your honesty! Press OK to finish the survey.."<br>
+ <p>
 
-			<button onclick="answers()">
-				Take a quick survey to get started!
-			</button>
 	</body>
+	
+	
 	<script src="game.js">
 
 	</script>
-
+<script>
+// DOM-based log, an alternative to console.log()
+var myconsole = document.getElementById("myconsole");
+function mylog(v) {
+ myconsole.innerHTML += (v + "<br>");
+}
+</script>
 	
 
 </html>

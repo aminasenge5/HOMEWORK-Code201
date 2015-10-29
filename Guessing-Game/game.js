@@ -1,5 +1,5 @@
 
-	function answers() {
+	function answers1() {
 
 		addict=0;
 
@@ -14,6 +14,10 @@
 	}
 
 	else {alert ("Next Question..");}
+	}
+
+
+function answers2() {
 
 	var answer2=prompt("Were you an addict?");
 
@@ -21,13 +25,14 @@
 
 		{ alert("Thanks for your honesty! Press ok to proceed to the next question..");
 
-		addict=addict+1;
-
-	}
+		addict=addict+1;}
 
 	else {alert ("Next Question..");}
+	}
 
 
+
+function answers3() {
 	var answer3=prompt ("Do you know an addict?");
 
 	if (answer3=="yes")
@@ -39,6 +44,7 @@
 	}
 
 	else {alert ("Thank you! Press OK to finish the survey..");}
-
-
-	};
+	}
+answers1();
+answers2();
+answers3();
